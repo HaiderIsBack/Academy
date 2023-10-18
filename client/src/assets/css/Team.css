@@ -1,0 +1,78 @@
+.team-main-section{
+    background: url("images/team.jpg.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+}
+
+.team-main-section .top-container{
+    background: var(--secondary);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.team-main-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    list-style-type: none;
+    margin: auto 0;
+}
+
+.team-main-section .nav-links ul li{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.team-main-section .nav-links ul a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    transition: 0.4s;
+}
+
+.team-main-section .nav-links ul a:hover,
+.team-main-section .nav-links ul a.active{
+    background: var(--bg);
+}
+
+.team-ceo-section img{
+    width: 100%;
+}
+
+.team-ceo-section h3, .team-ceo-section h5{
+    font: 0.6rem;
+    font-weight: thin;
+}
+
+.nav-search{
+    color: var(--bg);
+    cursor: pointer;
+}
+
+.team-ceo-section .team-ceo-socials .social-links{
+    color: #fff;
+    background: var(--bg);
+    font-size: 1rem;
+    padding: 10px 10px;
+    margin: 0 5px;
+    transition: 0.4s;
+}
+
+.team-ceo-section .team-ceo-socials .social-links:first-child{
+    margin-left: 0;
+    padding: 10px 13px;
+}
+
+.team-ceo-section .team-ceo-socials .social-links:hover{
+    background: var(--bg-light);
+    cursor: pointer;
+}

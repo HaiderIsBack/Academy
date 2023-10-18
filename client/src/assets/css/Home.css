@@ -1,0 +1,269 @@
+.home-main-section{
+    background: url("images/hero1.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+}
+
+.home-main-section .top-container{
+    background: var(--secondary);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.home-main-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    list-style-type: none;
+    margin: auto 0;
+}
+
+.home-main-section .nav-links ul li{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.home-main-section .nav-links ul a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    transition: 0.4s;
+}
+
+.home-main-section .nav-links ul a:hover,
+.home-main-section .nav-links ul a.active{
+    background: var(--bg);
+}
+
+.nav-search{
+    color: var(--bg);
+    cursor: pointer;
+}
+
+.home-register-section{
+    margin: 100px 0;
+}
+
+.home-register-section h3{
+    color: var(--bg);
+    font-weight: bolder;
+}
+
+.home-register-section img{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+}
+
+.home-register-section .realForm{
+    background: var(--secondary);
+}
+
+.home-register-section .realForm h4{
+    color: #fff;
+}
+
+.home-register-section .realForm input{
+    background: transparent;
+    border: 2px solid #fff;
+    width: 100%;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.home-register-section .realForm select{
+    width: 100%;
+    border: 2px solid #fff;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.home-register-section .realForm option{
+    color: var(--secondary);
+}
+
+.home-register-section .realForm input::placeholder,
+.home-register-section .realForm select::placeholder,
+.home-register-section .realForm textarea::placeholder{
+    color: #fff;
+}
+
+
+.home-register-section .realForm textarea{
+    width: 100%;
+    height: 200px;
+    background: transparent;
+    resize: none;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    outline: none;
+}
+
+.home-register-section .realForm button{
+    background: var(--bg);
+    padding: 10px 0;
+    width: 100%;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.home-register-section .realForm button:hover{
+    background: var(--bg-light);
+}
+
+
+.home-call-to-action .call-to-action{
+    background: var(--secondary);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.home-call-to-action .call-to-action .icon{
+    font-size: 4rem;
+    margin-top: 20px;
+}
+
+.home-call-to-action .call-to-action h3{
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+.home-call-to-action .call-to-action:nth-child(even){
+    background: var(--bg);
+}
+
+.home-institute-info{
+    width: 100%;
+    height: 400px;
+    background: var(--secondary);
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin: 100px 0;
+}
+
+.home-institute-info .col-3{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.home-institute-info .col-3 .icon{
+    margin: 10px 0;
+    font-size: 2rem;
+    color: var(--bg);
+}
+
+.home-result-card{
+    min-width: 300px;
+    font-weight: bolder;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    background: #e9e9e9;
+    text-align: center;
+    cursor: grab;
+}
+
+.home-result-card .head{
+    color: #fff;
+    background: var(--bg);
+    width: 100%;
+    text-align: left;
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+
+.home-result-card .middle{
+    color: var(--bg);
+    font-size: 4rem;
+}
+
+.home-result-card .marks-section{
+    color: var(--bg);
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.home-result-card .student-name{
+    color: var(--secondary);
+    font-size: 1.1rem;
+}
+
+.home-result-card .foot{
+    width: 100%;
+    background: var(--bg);
+    color: #fff;
+    margin-top:50px;
+}
+
+.home-result-card .foot h4{
+    margin-bottom: 0;
+}
+
+.home-student-top-results{
+    margin: 100px 0;
+}
+
+.home-student-top-results .wrapper{
+    margin: 100px 0;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.home-student-top-results .wrapper::-webkit-scrollbar-thumb{
+    background: var(--bg);
+}
+
+
+.home-feedback-section{
+    margin: 100px 0;
+}
+.home-feedback-section .star{
+    color: var(--bg);
+    font-size: 0.8rem;
+}
+
+.home-feedback-section .feedback{
+    color: var(--secondary);
+    background: #e9e9e9;
+    margin: 30px 10px;
+    padding: 20px 0;
+}
+
+.home-testimonial-section{
+    background-image: url("images/testimonial-bg.jpg");
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0, 0.6);
+    margin: 100px 0;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.home-testimonial-section h3{
+    font-weight: bolder;
+}
+
+.home-testimonial-section .quote-icon{
+    font-size: 4rem;
+}
